@@ -1,5 +1,6 @@
 from behave import *
 
+#region fruits
 @given(u'j\'ai une pomme')
 def step_impl(context):
     pass
@@ -19,10 +20,9 @@ def step_impl(context):
 @then(u'j\'ai du jus d\'orange')
 def step_impl(context):
     pass
+#endregion
 
-
-
-
+#region books
 @given(u'I search for a valid book')
 def step_impl(context):
     pass
@@ -38,3 +38,4 @@ def step_impl(context):
 @then(u'the result page will include "failure"')
 def step_impl(context):
     pass
+#endregion
